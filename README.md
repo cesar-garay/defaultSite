@@ -1,6 +1,6 @@
 # site
 
-This project was generated with the [Angular Full-Stack Generator](https://github.com/DaftMonk/generator-angular-fullstack) version 3.0.0.
+This project was generated with the [Angular Full-Stack Generator](https://github.com/DaftMonk/generator-angular-fullstack) version 3.0.0, and configured to be served with Apache 2.4
 
 ## Getting Started
 
@@ -17,7 +17,7 @@ This project was generated with the [Angular Full-Stack Generator](https://githu
 
 2. Run `bower install` to install front-end dependencies.
 
-3. Run `grunt serve` to start the development server. It should automatically open the client in your browser when ready.
+3. Run `grunt serve` to start the development server.
 
 ## Build & development
 
