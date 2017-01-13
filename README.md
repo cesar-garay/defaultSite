@@ -19,6 +19,8 @@ This project was generated with the [Angular Full-Stack Generator](https://githu
 
 3. Run `grunt serve` to start the development server.
 
+4. Configure virtual host using as example the `demo-vhost` file in the root
+
 ## Build & development
 
 Run `grunt build` for building and `grunt serve` for preview.

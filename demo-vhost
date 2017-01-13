@@ -1,0 +1,13 @@
+<VirtualHost *:80>
+        ServerAdmin mail@gmail.com
+        ServerName {site-url ej:cleandev.com}
+	Alias /bower_components {bower_components path ej:"C:/wamp64/www/pages/cleanDev/bower_components"}
+
+	DocumentRoot {Ej: C:/DirdePaso/wamp64/www/pages/cleanDev/site/dev}
+        <Directory {Ej: "C:/DirdePaso/wamp64/www/pages/cleanDev/site/dev/"}>
+		DirectoryIndex index.html
+                AllowOverride All
+                Order allow,deny
+                Allow from all
+</Directory>
+</VirtualHost>
