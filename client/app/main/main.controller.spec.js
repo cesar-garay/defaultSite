@@ -25,6 +25,8 @@ describe('Controller: MainController', function() {
         MainController.addItem();
         expect(MainController.itemName).toBe('');
         expect(MainController.list.length).toEqual(1);
+        MainController.addItem();
+        expect(MainController.list.length).toEqual(1);
     });
     it('Random Id should be valid', function() {
         expect(MainController.randomId.length).toEqual(30);
